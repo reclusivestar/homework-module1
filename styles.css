@@ -19,6 +19,11 @@ header {
     background-size: 1500px;
 }
 
+#cliffs header {
+    background: no-repeat lightgrey url(images/forest_cliff.jpg);
+    background-size: 1500px;
+}
+
 .main-header {
     background-color: rgb(255, 255, 255, 0.8);
     width: 700px;
@@ -329,3 +334,6 @@ form fieldset {
     width: 99%;  
     box-sizing: border-box;
 }
+
+/* New Section for California's Greatest Cliffs */
+
