@@ -310,3 +310,22 @@ form select {
 }
 
 
+main h1 {
+    color: #9ed034;  
+}
+
+/* Contact details */
+.contactinfo div {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.contactinfo span {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+form fieldset {
+    width: 99%;  
+    box-sizing: border-box;
+}
