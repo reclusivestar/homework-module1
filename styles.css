@@ -205,3 +205,108 @@ td:first-child {
     background: #BDE1FF;
 }
 
+/* Contact Form Styles */
+form {
+    border: none;  
+    padding: 0;
+}
+
+form fieldset {
+    border: 2px solid #9ed034;  
+    padding: 20px;
+    margin-bottom: 20px;
+    box-sizing: border-box;  
+}
+
+form legend {
+    color: #4977D1;  
+    font-size: 1.2em;
+    text-transform: uppercase;
+    padding-left: 10px;
+    border-left: 3px solid #9ed034;  
+    margin-bottom: 10px;
+}
+
+form .textbox input, form .commentbox textarea, form .selectmenu select {
+    width: 50%;  
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #4977D1;  
+    font-size: 1em;
+    border-radius: 3px;
+    box-sizing: border-box;  
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+form .radios input {
+    margin-right: 10px;
+}
+
+form .button input {
+    background-color: #4977D1;  
+    color: #fff; 
+    padding: 10px 20px;
+    border: none;
+    font-size: 1em;
+    cursor: pointer;
+    text-transform: uppercase;
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 45%;
+    display: inline-block;
+    border-radius: 3px;
+}
+
+form .button input:hover {
+    background-color: #9ed034;  
+}
+
+form .radios {
+    margin: 10px 0;
+}
+
+form .commentbox textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+.contactinfo {
+    margin: 20px 0;
+    font-size: 1.2em;
+}
+
+.contactinfo span:first-child {
+    font-weight: bold;
+}
+
+.contactinfo div {
+    margin: 10px 0;
+}
+
+
+form .textbox, form .radios, form .selectmenu, form .commentbox {
+    margin-bottom: 15px;
+}
+
+
+form .radios label {
+    display: inline-block;
+    margin-right: 10px;
+    font-weight: normal;
+}
+
+form .radios input {
+    vertical-align: middle;
+}
+
+form select {
+    padding: 5px;
+}
+
+
