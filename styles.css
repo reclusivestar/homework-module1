@@ -371,3 +371,13 @@ form fieldset {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     display: block; 
 }
+
+#timeofday {
+    text-align: center;
+    height: 60px;
+    background: linear-gradient(to bottom, #8ed6f0, #b5d6c5, #fac47a);
+}
+
+#timeText {
+    padding-top: 1%;
+}
