@@ -254,7 +254,7 @@ form .radios input {
 }
 
 form .button input {
-    background-color: #4977D1;  
+    /*background-color: #4977D1;*/  
     color: #fff; 
     padding: 10px 20px;
     border: none;
@@ -381,3 +381,4 @@ form fieldset {
 #timeText {
     padding-top: 1%;
 }
+
