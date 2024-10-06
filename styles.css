@@ -171,7 +171,14 @@ footer #nondisclaimer .social .fa-instagram {
 table {
     width: 1000px;
     margin: 4em auto 0 auto;
+    margin-bottom: 100px;
 }
+
+/* Style for highlighted cells */
+.highlighted {
+    background-color: #9dd033; 
+}
+
 
 caption {
     background: #852B1B;
