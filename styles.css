@@ -40,25 +40,30 @@ header {
 }
 
 .main-menu {
-    margin-left: 227px;
+    margin-left: 80px;
     font-weight: 400;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 1)' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
 
 .main-menu ul li {
     list-style-type: none;
     display: inline-block;
-    float: left;
     padding-left: 25px;
     padding-right: 25px;
     border-left: 1px solid rgba(202, 204, 202, 0.6);
-    line-height: 100px;
+    line-height: 84px;
     text-transform: uppercase;
     font-size: 14px;
+    background-color: rgb(255, 255, 255, 0.8);
 }
 
 .main-menu ul li a {
     text-decoration: none;
     color: #888;
+
 }
 
 .main-menu ul li a:hover {
@@ -72,6 +77,10 @@ header {
 
 .main-menu ul li.active a {
     color: #fff;
+}
+
+.navbar {
+    z-index: 1030;
 }
 
 /* Main */
@@ -89,7 +98,7 @@ section {
     background-color: #4288C3;
 }
 
-section #partners {
+/* section #partners {
     width: 1200px;
     padding: 2em 0 2em 0;
     margin: 0 auto;
@@ -102,12 +111,16 @@ section #partners .partner {
     padding: 1.3em 1.5em;
     background-color: #fff;
     border-radius: 50%;
-}
+} */
+
 
 section #partners .partner img {
-    width: 90px;
-    height: 90px;
-}
+    width: 100%; /* Ensure the image takes full width of the container */
+    height: auto; /* Maintain aspect ratio by adjusting height automatically */
+    object-fit: contain; /* Ensure the image fits nicely without being distorted */
+    padding: 2em 0 2em 0;
+    border-radius: 50%;
+  }
 
 /* Footer */
 footer {

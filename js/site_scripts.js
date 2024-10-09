@@ -11,8 +11,9 @@ var partnersList = '';
 
 for (var i = 0; i < partners.length; i++) {
     partnersList += `
-        <li class="partner">
-            <img src="${partners[i].src}" alt="${partners[i].alt}">
-        </li>`;
+              <div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-4 text-center partner">
+                  <img src="${partners[i].src}" alt="${partners[i].alt}" class="img-fluid">
+              </div>`;
 }
+
 document.getElementById('partners').innerHTML = partnersList;
