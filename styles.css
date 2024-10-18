@@ -1,31 +1,31 @@
 header {
     width: 100%;
-    min-height: 400px;
+    min-height: 275px;
     padding-top: 3em;
 }
 
-#home header {
-    background: no-repeat lightgrey url(images/cliff_ocean.jpg);
-    background-size: cover;
+#home  {
+    background: no-repeat white url(images/cliff_ocean.jpg);
+    background-size: 100% 400px;
 }
 
-#activities header {
-    background: no-repeat lightgrey url(images/runfly.jpg);
-    background-size: cover;
+#activities  {
+    background: no-repeat white url(images/runfly.jpg);
+    background-size: 100% 400px;
 }
 
-#contact header {
-    background: no-repeat lightgrey url(images/cliff_rock.jpg);
-    background-size: cover;
+#contact  {
+    background: no-repeat white url(images/cliff_rock.jpg);
+    background-size: 100% 400px;
 }
 
-#cliffs header {
-    background: no-repeat lightgrey url(images/forest_cliff.jpg);
-    background-size: cover;
+#cliffs  {
+    background: no-repeat white url(images/forest_cliff.jpg);
+    background-size: 100% 400px;
 }
 
 .main-header {
-    background-color: rgb(255, 255, 255, 0.8);
+    background-color: rgba(38, 31, 61, 0.7);
     width: 700px;
     margin: 2em auto 0 auto;
     min-height: 100px;
@@ -57,12 +57,12 @@ header {
     line-height: 84px;
     text-transform: uppercase;
     font-size: 14px;
-    background-color: rgb(255, 255, 255, 0.8);
+    background-color: rgba(38, 31, 61, 0.7);
 }
 
 .main-menu ul li a {
     text-decoration: none;
-    color: #888;
+    color: rgb(255, 255, 255);
 
 }
 
