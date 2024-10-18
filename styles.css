@@ -6,22 +6,22 @@ header {
 
 #home header {
     background: no-repeat lightgrey url(images/cliff_ocean.jpg);
-    background-size: 1500px;
+    background-size: cover;
 }
 
 #activities header {
     background: no-repeat lightgrey url(images/runfly.jpg);
-    background-size: 1500px;
+    background-size: cover;
 }
 
 #contact header {
     background: no-repeat lightgrey url(images/cliff_rock.jpg);
-    background-size: 1500px;
+    background-size: cover;
 }
 
 #cliffs header {
     background: no-repeat lightgrey url(images/forest_cliff.jpg);
-    background-size: 1500px;
+    background-size: cover;
 }
 
 .main-header {

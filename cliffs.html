@@ -2,43 +2,62 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="styles.css">
-    <title>Great Cliff's Logo</title>
+    <title>California's Greatest Cliffs</title>
   </head>
   <body id="cliffs">
     <!-- Container to wrap everything -->
     <div id="container">
       <!-- Header -->
       <header>
-        <div class="main-header">
-          <div class="logo">
-            <img src="images/logo.png" alt="Great Cliffs Logo" width="125">
+        <nav class="navbar navbar-expand-lg sticky-top">
+          <div class="container main-header">
+            <!-- Logo -->
+            <div class="logo" href="#">
+              <img src="images/logo.png" alt="Great Cliffs Logo" width="100" height="100">
+            </div>
+    
+            <!-- Hamburger Menu (for medium screens and below) -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <!-- Collapsible Navigation Links -->
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <div class="main-menu">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="cliffs.html">Cliffs</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="activities.html">Activities</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+              </ul>
+            </div>
+            </div>
           </div>
-          <nav class="main-menu">
-            <ul>
-              <li><a href="index.html">Home</a></li>
-              <li class="active"><a href="cliffs.html">Cliffs</a></li>
-              <li><a href="activities.html">Activities</a></li> 
-              <li><a href="contact.html">Contact</a></li>
-            </ul>
-          </nav>
-        </div>
+        </nav>
       </header>
       
       <!-- Main Content -->
       <main>
         <h2>California's Greatest Cliffs</h2>
         <p>
-            The greatest cliffs are these four cliffs located in southern California. Each of these cliffs have their own uniqueness and beauty: West Cliff, North Cliff, East Cliff and South Cliff are the pride of California. Each cliff has many amenities to offer visitors such as recreational areas, camping sites, wildlife watch spots and overnight cabins.
-
+            The greatest cliffs are these four cliffs located in southern California. Each of these cliffs has its own uniqueness and beauty: West Cliff, North Cliff, East Cliff, and South Cliff are the pride of California. Each cliff has many amenities to offer visitors such as recreational areas, camping sites, wildlife watch spots, and overnight cabins.
         </p>
-        <p>No matter which direction you head from Irvine, California, the sites are easily reached within a 100 mile radius. West Cliff is the most popular among Westcliff University campus students because of its close proximity.</p>
+        <p>No matter which direction you head from Irvine, California, the sites are easily reached within a 100-mile radius. West Cliff is the most popular among Westcliff University campus students because of its close proximity.</p>
 
-
-
+        <!-- Grid layout for cliffs -->
         <div class="cliffs-grid">
             <div class="cliff-item">
               <h3>West Cliff</h3>
@@ -56,34 +75,17 @@
               <h3>South Cliff</h3>
               <img src="images/south_cliff.jpg" alt="South Cliff">
             </div>
-          </div>
-
+        </div>
 
         <!-- Section for Partners -->
-
-        <section>
-          <ul id="partners">
-              <!-- <li class="partner">
-                  <img src="images/partners/partner-bustour.png" alt="Partner Bus Tours">
-              </li>
-              <li class="partner">
-                  <img src="images/partners/partner-cabinrental.png" alt="Partner Cabin Rental">
-              </li>
-              <li class="partner">
-                  <img src="images/partners/partner-campingadv.png" alt="Partner Camping Adventure">
-              </li>
-              <li class="partner">
-                  <img src="images/partners/partner-collegetours.png" alt="Partner College Tours">
-              </li>
-              <li class="partner">
-                  <img src="images/partners/partner-rentalbike.png" alt="Partner Bike Rentals">
-              </li>
-              <li class="partner">
-                  <img src="images/partners/partner-tourgroup.png" alt="Partner Tour Group">
-              </li> -->
-          </ul>
+        <section class="mt-5">
+          <h3 class="text-center mb-4">Our Partners</h3>
+          <div class="container">
+            <div class="row" id="partners">
+              <!-- Partner Images will be injected here by JavaScript -->
+            </div>
+          </div>
         </section>
-      
       </main>
       
       <!-- Footer -->
@@ -99,7 +101,6 @@
             <a href="#" class="fa fa-instagram"></a>
             <a href="#" class="fa fa-twitter"></a>
           </div>
-        
         </div>
         
         <!-- Disclaimer Section -->
@@ -111,5 +112,8 @@
     </div>
     <!-- End Container -->
     <script src="js/site_scripts.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   </body>
 </html>
