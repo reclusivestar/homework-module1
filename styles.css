@@ -4,6 +4,8 @@ header {
     padding-top: 3em;
 }
 
+
+
 #home  {
     background: no-repeat white url(images/cliff_ocean.jpg);
     background-size: 100% 400px;
@@ -191,16 +193,31 @@ table {
     background-color: #9dd033; 
 }
 
+/* Make the table container responsive */
+.table-responsive {
+    width: 75%; /* Full width */
+    overflow-x: auto; /* Enables horizontal scrolling */
+    margin: 0 auto; /* Center the table */
+}
+
+/* Style for the table inside the responsive container */
+.table-responsive table {
+    width: 100%; /* Ensure the table takes full width */
+    border-collapse: collapse; /* Optional: collapse borders */
+    min-width: 600px; /* Minimum width to prevent table from collapsing too much */
+}
+
+
 
 caption {
+    caption-side: top; /* This ensures the caption is placed at the top of the table */
     background: #852B1B;
-    height: 40px;
     color: #fff;
     font-size: 1.3em;
     font-weight: bold;
-    padding-top: 1em;
+    padding: 0.5em; /* Adjusted padding */
+    text-align: center; /* Center-align the caption */
 }
-
 thead {
     background: #BDE1FF;
 }
@@ -231,8 +248,7 @@ td:first-child {
 
 /* Contact Form Styles */
 form {
-    border: none;  
-    padding: 0;
+    padding: 10px;
 }
 
 form fieldset {
